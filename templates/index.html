@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>House Price Pridiction</title>
+    <link rel="stylesheet" type="text/css" href="./static/css.css"/>
+
+</head>
+<body>
+<div id="body">
+    <div class='background'>
+        <div class="text1">
+            <h1>House Price Pridiction </h1>
+        </div>
+
+
+    </div>
+
+    <div class=form>
+
+            <form action="/predict" method="post">
+                <table style="margin-left:auto;margin-right:auto">
+                    <tr>
+                        <td>
+
+            <label>Date de mutation :</label></td>
+                        <td> <input type="number" placeholder="Date de mutation" id='a' name='a'></td>
+
+                      <td>  <label>Surface batie de bien :</label></td>
+                        <td>     <input type="number" max="200" placeholder="Surface batie de bien " id='b' name='b'><br></td> </tr>
+            <tr><td>  <label>Nombre de piéces principales :</label> </td>
+                <td> <input type="number" placeholder="Nombre de piéces principales avec salon" id='c' name='c'></td>
+                    <td> <label>Langitude :</label></td>
+                <td><input type="number" step="0.00000001" placeholder="Langitude" id='d' name='d'><br></td></tr>
+            <tr> <td> <label>Latitude :</label></td>
+                <td> <input type="number" step="0.00000001" placeholder="Latitude" id='e' name='e'><br></td>
+
+
+                     <td>  <button id=submitbtn type="submit" value="submit">Valider</button></td> </tr>
+                </table>
+        </form>
+        <div id=result>
+            <p> {{pred}}</p>
+        </div>
+    </div>
+
+
+</div>
+</body>
+
+
+</html>

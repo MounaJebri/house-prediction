@@ -1,0 +1,74 @@
+.form{
+    text-align: center;
+    background-image: linear-gradient(SlateGray,#708090);
+    padding: 100px;
+    border-radius: 10px;
+}
+.form:hover{
+    text-align: center;
+    background-image: linear-gradient(SlateGray,#708090);
+    padding: 100px;
+    border-radius: 10px;
+}
+
+#result{
+    text-align: center;
+    padding: 10px;
+    color:#002366 ;
+    border-radius: 40px;
+    margin: 10px;
+    opacity: .8;
+    text-shadow: 2px 2px 2px orangered
+}
+.background{
+    background-image: linear-gradient(SlateGray,#708090);
+    background-color: SlateGray;
+    height: 100px;
+    opacity: .4;
+    border-radius: 10px;
+}
+.background:hover{
+    background-image: linear-gradient(SlateGray,#708090);
+    background-color: SlateGray;
+    height: 100px;
+    opacity: .4;
+    border-radius: 10px;
+}
+input{
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    background: #e1d9c7;
+    transition: width 0.4s ease-in-out;
+}
+input:focus{
+    width:300px;
+    background: #e1d9c7;
+
+}
+
+#submitbtn{
+    border-radius: 50px;
+    background-color: #e1d9c7;
+}
+#submitbtn:hover{
+    font-size: 20px;
+    color: #e1d9c7;
+    background-image: radial-gradient(#e1d9c7,orangered)
+
+}
+
+
+.text1{
+    text-align:center;
+    padding-top: 30px;
+    opacity: 1;
+    text-shadow: 2px 2px 2px #e1d9c7;
+}
+.text1:hover{
+
+    text-align:center;
+    padding-top: 30px;
+    opacity: 1;
+    text-shadow: 2px 2px 2px #708090;
+}
